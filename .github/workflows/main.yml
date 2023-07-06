@@ -2,7 +2,7 @@ ame: "Build Android app"
 
 on:
   workflow_dispatch:
-    branches: [main]
+    branches: [dev]
     # can add push and pull_request here 
 
 jobs:
