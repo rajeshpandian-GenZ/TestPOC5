@@ -21,7 +21,7 @@ jobs:
         cache: gradle
 
     - name: Move to Android folder
-      run: cd android
+      run: ls -lra
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Build with Gradle
