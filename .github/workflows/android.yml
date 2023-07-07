@@ -22,6 +22,10 @@ jobs:
 
     - name: Move to Android folder
       run: ls -lra
+    - name: Move to Android folder
+      run: cd android
+    - name: Move to Android folder
+      run: ls -lra
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Build with Gradle
